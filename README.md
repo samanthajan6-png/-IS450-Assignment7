@@ -53,10 +53,10 @@ python3 -m pip install pandas
 ## IS450 Assignment 7
 
 - **Student:** Samantha Kaiser
-- **GitHub:** [@samanthajan6-png](https://github.com/samanthajan6-png)
+- **GitHub username:** [@samanthajan6-png](https://github.com/samanthajan6-png)
 
-The program simulates rolling a six-sided die 20 times and calculates the
-average result. It does not require user input.
+The program simulates rolling a six-sided die 20 times. It does not require
+user input and displays the roll results and their average.
 
 Run the assignment from its directory with:
 
