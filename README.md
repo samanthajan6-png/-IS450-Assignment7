@@ -24,10 +24,9 @@ interactive input, calculations, and working with CSV data.
 - **File and data exercises (`exam.py`):** calculates an average, generates
   random light and weather data, filters game results, reads text files, and
   writes paired lists to CSV.
-- **Shopping cart tracker (`main.py`):** prompts for item names and prices,
-  checks for empty names and invalid or negative prices, and displays the
-  current cart. At checkout, it prints an itemized receipt and applies a 10%
-  discount when the subtotal is over $50.
+- **[Shopping Cart Tracker Project](#shopping-cart-tracker-project) (`main.py`):**
+  prompts for items and prices, displays the cart, and applies a 10% discount
+  when the subtotal is over $50.
 - **Die roll simulation (IS450 Assignment 7):** simulates 20 six-sided die
   rolls and displays their average. The assignment is in the
   [`-IS450-Assignment7`](./-IS450-Assignment7/) subproject.
@@ -52,10 +51,22 @@ files; `optional_review_explorer.py` also requires pandas:
 python3 -m pip install pandas
 ```
 
-For the shopping cart, enter an item and its price when prompted. Type `done`
-to check out and see your itemized receipt, subtotal, discount, and final total.
+## Shopping Cart Tracker Project
 
-### Shopping Cart Tracker Code
+The shopping cart is an interactive Python program for adding priced items and
+checking out. It validates empty item names and invalid or negative prices,
+displays the cart as items are added, and prints a final itemized receipt.
+Subtotals over $50 receive a 10% discount.
+
+Run it from the project directory:
+
+```bash
+python3 main.py
+```
+
+Enter an item and its price when prompted. Type `done` to check out.
+
+### Source Code
 
 ```python
 # Main py
