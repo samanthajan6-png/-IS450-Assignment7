@@ -24,8 +24,10 @@ interactive input, calculations, and working with CSV data.
 - **File and data exercises (`exam.py`):** calculates an average, generates
   random light and weather data, filters game results, reads text files, and
   writes paired lists to CSV.
-- **Shopping cart tracker (`main.py`):** collects item prices and calculates
-  a 10% discount when the cart total exceeds $50.
+- **Shopping cart tracker (`main.py`):** prompts for item names and prices,
+  checks for empty names and invalid or negative prices, and displays the
+  current cart. At checkout, it prints an itemized receipt and applies a 10%
+  discount when the subtotal is over $50.
 - **Die roll simulation (IS450 Assignment 7):** simulates 20 six-sided die
   rolls and displays their average. The assignment is in the
   [`-IS450-Assignment7`](./-IS450-Assignment7/) subproject.
@@ -49,6 +51,9 @@ files; `optional_review_explorer.py` also requires pandas:
 ```bash
 python3 -m pip install pandas
 ```
+
+For the shopping cart, enter an item and its price when prompted. Type `done`
+to check out and see your itemized receipt, subtotal, discount, and final total.
 
 ## IS450 Assignment 7
 
